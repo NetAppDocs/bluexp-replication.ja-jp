@@ -113,9 +113,7 @@
   <block id="4bf49185216f4e917fd8dcc50ee1ff2c" category="list-text">オンプレミスの ONTAP クラスタがソースの場合は、 Direct Connect または VPN 接続を使用して、オンプレミスネットワークと AWS VPC 間の接続を確認します。</block>
   <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">システム間でデータをレプリケート</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">データをレプリケートするには、クラウドとの間でデータを移動するのに便利な 1 回限りのデータレプリケーション、またはディザスタリカバリや長期保管に便利な繰り返しスケジュールを選択します。</block>
-  <block id="29e71d65fc647320e822efb6ec422c56" category="list-text">キャンバスページで、ソースボリュームを含む作業環境を選択し、ボリュームを複製する作業環境にドラッグします。</block>
   <block id="f058b2239a935219edfc3818d7b5cb9e" category="inline-image-macro">スクリーンショット：データレプリケーションプロセスを開始するために別の作業環境の上に配置されている作業環境を示します。</block>
-  <block id="f0fb2fde0c29810d08233a36012cb972" category="paragraph"><block ref="f0fb2fde0c29810d08233a36012cb972" category="inline-image-macro-rx" type="image"></block></block>
   <block id="362a388c30edcb2f99cceb3fe86d98c1" category="list-text">* Source and Destination Peering Setup * ：このページが表示された場合は、クラスタピア関係用のすべてのクラスタ間 LIF を選択します。</block>
   <block id="bea31cd643e991ddda33528781bb08e5" category="paragraph">クラスタ間ネットワークは、クラスタピアどうしが _pair-wise full-mesh connectivity_ を持つように設定する必要があります。具体的には、クラスタピア関係にある各クラスタペアの、すべてのインタークラスタ LIF の間に接続が確立されている必要があります。</block>
   <block id="2de4794fb8257073e92d6ea494fd0157" category="paragraph">これらのページは、複数の LIF を持つ ONTAP クラスタがソースまたはデスティネーションである場合に表示されます。</block>
@@ -160,7 +158,6 @@
   <block id="dc699e704dec5502b9aa219f9381ad94" category="doc">レプリケーションのドキュメント</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、事前に Cloud Manager にネットアップサポートサイトのアカウントを追加し、サポートに登録しておく必要があります。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
   <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">レプリケーションドキュメント</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
@@ -239,4 +236,11 @@
   <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">[ * お問い合わせ * ] をクリックして、ネットアップ・テクニカル・サポートの電話番号を検索してください。</block>
   <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">[ * 問題 を開く * ] をクリックし、いずれかのオプションを選択して、 [ * 送信 * ] をクリックします。</block>
   <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">ネットアップの担当者がケースを確認し、すぐに対応を開始します。</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
+  <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">ONTAP のFSXをデータソースとして使用します</block>
+  <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">Amazon FSX for ONTAP ファイルシステムから次のデスティネーションにデータをレプリケートできるようになりました。</block>
+  <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">オンプレミスの ONTAP クラスタ</block>
+  <block id="5aa1fbc4561178f17ae944c56ea9c22e" category="list-text">キャンバスで、ソースボリュームを含む作業環境を選択し、ボリュームを複製する作業環境にドラッグしてから、*レプリケーション*を選択します。</block>
+  <block id="467e7c8bbebd5d8880767fb4213184dc" category="paragraph"><block ref="467e7c8bbebd5d8880767fb4213184dc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2be8439d89ba35425f3565fe4d0cc2a1" category="paragraph">以降の手順では、Cloud Volumes ONTAP またはオンプレミスのONTAP クラスタ間で同期関係を作成する方法の例を示します。</block>
 </blocks>

@@ -18,6 +18,22 @@ Replication サービスの新機能について説明します。
 
 
 
+== 2022年7月31日
+
+
+
+=== ONTAP のFSXをデータソースとして使用します
+
+Amazon FSX for ONTAP ファイルシステムから次のデスティネーションにデータをレプリケートできるようになりました。
+
+* ONTAP 対応の Amazon FSX
+* オンプレミスの ONTAP クラスタ
+
+
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["データレプリケーションの設定方法について説明します"]。
+
+
+
 == 2021 年 9 月 2 日
 
 

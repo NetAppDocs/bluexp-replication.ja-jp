@@ -56,7 +56,7 @@ ONTAP クラスタ固有の要件::
 +
 --
 * アクティブな SnapMirror ライセンスがインストールされている必要があります。
-* クラスタがオンプレミスにある場合は、企業ネットワークから AWS 、 Azure 、または GCP 内の仮想ネットワークへの接続が必要です。これは通常、 VPN 接続です。
+* クラスタがオンプレミスにある場合は、企業ネットワークからAWS、Azure、またはGoogle Cloudの仮想ネットワークへの接続が必要です。これは通常、 VPN 接続です。
 * ONTAP クラスタは、サブネット、ポート、ファイアウォール、およびクラスタの追加要件を満たしている必要があります。
 +
 https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["クラスタピアリングの前提条件については、 ONTAP のドキュメントを参照してください"^]
@@ -67,12 +67,8 @@ https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_f
 Amazon FSX for ONTAP に固有の要件::
 +
 --
-* Amazon FSX for ONTAP 作業環境は、データレプリケーション関係のターゲットである必要があります。
-+
-ソースは、 Cloud Volumes ONTAP またはオンプレミスの ONTAP クラスタです。
-
-* Cloud Volumes ONTAP が送信元である場合は、 VPC ピアリングを有効にするか、トランジットゲートウェイを使用して VPC 間の接続を確認します。
-* オンプレミスの ONTAP クラスタがソースの場合は、 Direct Connect または VPN 接続を使用して、オンプレミスネットワークと AWS VPC 間の接続を確認します。
+* Cloud Volumes ONTAP がこの関係の一部である場合は、VPCピアリングを有効にするか、トランジットゲートウェイを使用してVPC間の接続を確認します。
+* オンプレミスのONTAP クラスタが関係の一部である場合は、Direct ConnectまたはVPN接続を使用して、オンプレミスネットワークとAWS VPC間の接続を確認します。
 
 
 --

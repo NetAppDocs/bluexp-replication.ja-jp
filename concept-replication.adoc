@@ -60,6 +60,7 @@ Cloud Manager では、次のタイプの作業環境間でデータレプリケ
 
 | ONTAP 対応の Amazon FSX  a| 
 * ONTAP 対応の Amazon FSX
+* Cloud Volumes ONTAP
 * オンプレミスの ONTAP クラスタ
 
 

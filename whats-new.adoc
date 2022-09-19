@@ -18,6 +18,18 @@ Replication サービスの新機能について説明します。
 
 
 
+== 2022年9月18日
+
+
+
+=== FSX for ONTAP to Cloud Volumes ONTAP の略
+
+Amazon FSX for ONTAP ファイルシステムからCloud Volumes ONTAP にデータをレプリケートできるようになりました。
+
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["データレプリケーションの設定方法について説明します"]。
+
+
+
 == 2022年7月31日
 
 

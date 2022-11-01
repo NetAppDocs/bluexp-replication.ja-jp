@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: Replication サービスの新機能について説明します。 
+summary: BlueXP（旧称Cloud Manager）のReplicationサービスの新機能について説明します。 
 ---
 = 新機能
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Replication サービスの新機能について説明します。
 
 
 [role="lead"]
-Replication サービスの新機能について説明します。
+BlueXP（旧称Cloud Manager）のReplicationサービスの新機能について説明します。
 
 
 

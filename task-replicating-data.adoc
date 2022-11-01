@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-replicating-data.html 
-keywords: ontap, cluster, discover, manage, cloud manager, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap 
-summary: Cloud Manager 作業環境間でデータをレプリケートできます。1 回限りのデータレプリケーションを選択してクラウドとの間でデータを移動することも、繰り返しスケジュールを選択してディザスタリカバリや長期保管に備えることもできます。 
+keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap 
+summary: ONTAP 作業環境間でデータをレプリケートするには、データ転送用の 1 回限りのデータレプリケーションを選択するか、ディザスタリカバリまたは長期保管用の繰り返しスケジュールを選択します。たとえば、ディザスタリカバリ用にオンプレミスの ONTAP システムから Cloud Volumes ONTAP へのデータレプリケーションを設定できます。 
 ---
 = データレプリケーションを設定
 :hardbreaks:
@@ -81,6 +81,7 @@ Amazon FSX for ONTAP に固有の要件::
 データをレプリケートするには、クラウドとの間でデータを移動するのに便利な 1 回限りのデータレプリケーション、またはディザスタリカバリや長期保管に便利な繰り返しスケジュールを選択します。
 
 .手順
+. ナビゲーションメニューから、*ストレージ>キャンバス*を選択します。
 . キャンバスで、ソースボリュームを含む作業環境を選択し、ボリュームを複製する作業環境にドラッグしてから、*レプリケーション*を選択します。
 +
 image:screenshot-drag-and-drop.png["スクリーンショット：データレプリケーションプロセスを開始するために別の作業環境の上に配置されている作業環境を示します。"]
@@ -119,4 +120,4 @@ image:screenshot-drag-and-drop.png["スクリーンショット：データレ�
 . * 復習 * ：選択内容を確認して、 * 移動 * をクリックします。
 
 
-Cloud Manager がデータレプリケーションプロセスを開始します。ボリューム関係の詳細はレプリケーションサービスで確認できます。
+BlueXPがデータレプリケーションプロセスを開始しますボリューム関係の詳細はレプリケーションサービスで確認できます。

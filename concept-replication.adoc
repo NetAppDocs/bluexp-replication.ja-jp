@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-replication.html 
-keywords: ontap, cluster, discover, manage, cloud manager, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention 
+keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention 
 summary: NetApp SnapMirror は、 LAN または WAN 経由でデータを高速でレプリケートするため、仮想環境と従来の環境の両方で、高いデータ可用性と高速なデータレプリケーションを実現できます。ネットアップストレージシステムにデータをレプリケートし、セカンダリデータを継続的に更新することで、データを最新の状態に保ちながら、必要なときにいつでもデータを利用できるようになります。外部レプリケーションサーバは必要ありません。 
 ---
 = レプリケーションサービスについて説明します
@@ -35,7 +35,7 @@ NetApp SnapMirror は、 LAN または WAN 経由でデータを高速でレプ�
 
 == サポートされている作業環境
 
-Cloud Manager では、次のタイプの作業環境間でデータレプリケーションを実行できます。
+BlueXPを使用すると'次のような作業環境間でデータのレプリケーションを実行できます
 
 [cols="30,30"]
 |===
@@ -69,9 +69,9 @@ Cloud Manager では、次のタイプの作業環境間でデータレプリケ
 
 == データレプリケーションの仕組み
 
-Cloud Manager では、 SnapMirror テクノロジと SnapVault テクノロジを使用して、別々の ONTAP システムにあるボリューム間のデータレプリケーションを簡易化できます。ソースボリュームとデスティネーションボリュームを特定し、レプリケーションポリシーとスケジュールを選択するだけで済みます。
+BlueXPは、SnapMirrorとSnapVault テクノロジを使用して、別々のONTAP システム上のボリューム間のデータレプリケーションを簡素化します。ソースボリュームとデスティネーションボリュームを特定し、レプリケーションポリシーとスケジュールを選択するだけで済みます。
 
-Cloud Volumes ONTAP の場合、 Cloud Manager は必要なディスクを購入して関係を設定し、レプリケーションポリシーを適用してから、ボリューム間のベースライン転送を開始します。
+Cloud Volumes ONTAP では、必要なディスクを購入し、関係を設定してレプリケーションポリシーを適用し、ボリューム間のベースライン転送を開始します。
 
 
 NOTE: ベースライン転送には、ソースデータのフルコピーが含まれます。その後の転送には、ソースデータの差分コピーが含まれます。
@@ -80,7 +80,7 @@ NOTE: ベースライン転送には、ソースデータのフルコピーが�
 
 == サポートされるデータ保護構成
 
-Cloud Manager は、シンプルなファンアウト / カスケードデータ保護構成をサポートしています。
+BlueXPは、シンプル、ファンアウト、およびカスケードのデータ保護構成をサポートしています。
 
 * シンプルな構成では、ボリューム A からボリューム B へのレプリケーションが行われます
 * ファンアウト構成では、ボリューム A から複数のデスティネーションへのレプリケーションが行われます。

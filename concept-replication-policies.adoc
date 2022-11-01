@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-replication-policies.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, disaster recovery, DR 
-summary: Cloud Manager 作業環境間でデータをレプリケートできます。1 回限りのデータレプリケーションを選択してクラウドとの間でデータを移動することも、繰り返しスケジュールを選択してディザスタリカバリや長期保管に備えることもできます。 
+summary: BlueXP作業環境間でデータを複製できます。1 回限りのデータレプリケーションを選択してクラウドとの間でデータを移動することも、繰り返しスケジュールを選択してディザスタリカバリや長期保管に備えることもできます。 
 ---
 = レプリケーションポリシーについて説明します
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager 作業環境間でデータをレプリケートできま
 
 
 [role="lead"]
-Cloud Manager でデータレプリケーションを設定するときに、レプリケーションポリシーの選択が必要になることがあります。レプリケーションポリシーは、ストレージシステムがソースボリュームからデスティネーションボリュームにデータをレプリケートする方法を定義します。
+BlueXPでデータレプリケーションを設定するときに、レプリケーションポリシーの選択に関するヘルプが必要になる場合があります。レプリケーションポリシーは、ストレージシステムがソースボリュームからデスティネーションボリュームにデータをレプリケートする方法を定義します。
 
 
 

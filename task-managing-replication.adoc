@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-managing-replication.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, source, destination, schedule, relationship, break, resync, max transfer, maximum transfer rate, rate, transfer rate, reverse resync, status, replication status, disaster recovery, DR, archive, archiving, retention 
-summary: 2 つのシステム間でデータレプリケーションをセットアップしたら、 Cloud Manager からデータレプリケーションスケジュールと関係を管理できます。 
+summary: 2つのシステム間でデータレプリケーションを設定すると、BlueXPからデータレプリケーションのスケジュールと関係を管理できます。 
 ---
 = スケジュールと関係の管理
 :hardbreaks:
@@ -14,10 +14,10 @@ summary: 2 つのシステム間でデータレプリケーションをセット
 
 
 [role="lead"]
-2 つのシステム間でデータレプリケーションをセットアップしたら、 Cloud Manager からデータレプリケーションスケジュールと関係を管理できます。
+2つのシステム間でデータレプリケーションを設定すると、BlueXPからデータレプリケーションのスケジュールと関係を管理できます。
 
 .手順
-. [*Replication] をクリックします。
+. ナビゲーションメニューから* Protection > Replication *を選択します。
 . データレプリケーションリレーションシップのステータスを確認して、正常であることを確認します。
 +
 
@@ -68,4 +68,4 @@ NOTE: ボリュームを再同期すると、デスティネーションボリ�
 |===
 
 
-アクションを選択すると、 Cloud Manager によって関係またはスケジュールが更新されます。
+アクションを選択すると、関係またはスケジュールが更新されます。

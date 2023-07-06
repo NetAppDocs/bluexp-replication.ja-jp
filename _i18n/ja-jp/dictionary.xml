@@ -361,4 +361,12 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="31fd9b4d5ab71f1bab6cf8522f760d0a" category="section-title">BlueXPのバックアップとリカバリを使用してデータをレプリケート</block>
+  <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">BlueXPのバックアップとリカバリ</block>
+  <block id="66979f555a68186ee239dfc6698f984d" category="paragraph">BlueXP Connector 3.9.31リリース以降では、BlueXPのバックアップとリカバリで、SnapMirrorテクノロジとSnapVaultテクノロジを使用して、別 々 のONTAPシステム上のボリューム間でデータをレプリケートできます。そのため、データを他のONTAPシステムにレプリケートし、同じデータのバックアップをオブジェクトストレージに作成する場合は、を使用することを推奨します<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> データ保護のニーズを単一のサービスで管理できるようになります。</block>
+  <block id="fdebf565d05cf95ccf5d24605af82d89" category="paragraph">現在、次の機能はBlueXPレプリケーションサービスでのみサポートされます。BlueXPのバックアップとリカバリのレプリケーション機能を使用している場合はサポートされません。</block>
+  <block id="e012112c73378e2a2d1fd1a0fa9c2795" category="list-text">ボリュームAからボリュームBへ、さらにボリュームBからボリュームCへレプリケーションを行うカスケード構成はサポートされていません</block>
+  <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">FSx for ONTAPシステムとの間でのデータのレプリケートはサポートされていません。</block>
+  <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">ボリュームの1回限りのレプリケーションを作成することはできません。</block>
+  <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">そのため、この機能が必要な場合はBlueXPレプリケーションを使用してください。</block>
 </blocks>

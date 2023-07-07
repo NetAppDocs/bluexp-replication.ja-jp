@@ -28,7 +28,7 @@ ONTAP 作業環境間でデータをレプリケートするには、データ�
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["ONTAP 作業環境用の Amazon FSX を作成します"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS で Cloud Volumes ONTAP を起動します"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["GCP で Cloud Volumes ONTAP を起動します"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Google CloudでCloud Volumes ONTAP を起動します"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["既存の Cloud Volumes ONTAP システムを追加"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["ONTAP クラスタを検出"^]
 
@@ -121,4 +121,4 @@ image:screenshot-drag-and-drop.png["スクリーンショット：データレ�
 
 
 .結果
-BlueXPがデータレプリケーションプロセスを開始しますボリューム関係の詳細はレプリケーションサービスで確認できます。
+BlueXPがデータレプリケーションプロセスを開始しますボリューム関係に関する詳細は、BlueXPレプリケーションサービスで確認できます。

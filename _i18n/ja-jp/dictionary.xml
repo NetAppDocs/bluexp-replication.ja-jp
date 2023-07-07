@@ -27,7 +27,6 @@
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">Cloud Volumes ONTAP システムまたはオンプレミスの ONTAP クラスタから ONTAP ファイルシステム用の Amazon FSX にデータをレプリケートできるようになりました。</block>
   <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">2021 年 5 月 5 日</block>
   <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">インターフェイスの再設計</block>
-  <block id="5a0a1bceb9fa4494f5bd231c6eb87a5b" category="paragraph">使いやすく、 Cloud Manager のユーザインターフェイスの最新のルックアンドフィールに合わせて、 Replication タブが再設計されました。</block>
   <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">Cloud Manager の再設計された Replication タブのスクリーンショット。ボリューム関係のリストを示しています。</block>
   <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">スケジュールと関係の管理</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
@@ -79,7 +78,6 @@
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">ONTAP 作業環境用の Amazon FSX を作成します</block>
   <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">AWS で Cloud Volumes ONTAP を起動します</block>
   <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">Azure で Cloud Volumes ONTAP を起動します</block>
-  <block id="ce3503849689227dd8014f8ed3f5cb5e" category="inline-link">GCP で Cloud Volumes ONTAP を起動します</block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">既存の Cloud Volumes ONTAP システムを追加</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">ONTAP クラスタを検出</block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">バージョン要件</block>
@@ -112,13 +110,11 @@
   <block id="eab21f14d3f6250b2de779be87b8404e" category="paragraph">いくつかのデフォルトスケジュールを使用できます。別のスケジュールを使用する場合は、 System Manager を使用して、 _destination_cluster に新しいスケジュールを作成する必要があります。</block>
   <block id="b651c9a4bed137033ce440a73927ffcf" category="list-text">* 復習 * ：選択内容を確認して、 * 移動 * をクリックします。</block>
   <block id="aeeec0576922eb4490b5fabadc6c4e36" category="summary">NetApp SnapMirror は、 LAN または WAN 経由でデータを高速でレプリケートするため、仮想環境と従来の環境の両方で、高いデータ可用性と高速なデータレプリケーションを実現できます。ネットアップストレージシステムにデータをレプリケートし、セカンダリデータを継続的に更新することで、データを最新の状態に保ちながら、必要なときにいつでもデータを利用できるようになります。外部レプリケーションサーバは必要ありません。</block>
-  <block id="e60519215887d589e148f68a2f5d2a06" category="doc">レプリケーションサービスについて説明します</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">の機能</block>
   <block id="4d8208136280cbaba3cab05e5996a3a8" category="list-text">ONTAP ストレージシステム間でデータをレプリケートして、クラウドまたはクラウド間でバックアップとディザスタリカバリをサポートします。</block>
   <block id="58598c037819ab3e58b8ee6d0d634246" category="list-text">高い可用性を備えた信頼性の高い DR 環境を実現します。</block>
   <block id="6c12db213eb53a8ef7d470254e0395be" category="list-text">ONTAP ストレージ間の効率的なブロックレベルのレプリケーションは高速かつ効率的で、 DR とバックアップの両方をきめ細かくリカバリできます。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
-  <block id="51d8157d48cfe9c64b3f0f386d2e4e7b" category="paragraph">ネットアップでは、レプリケーションサービスの使用料は発生しませんが、データの入力と出力に該当する料金がクラウドプロバイダにあるかどうかを確認する必要があります。</block>
   <block id="744db3ac634a7aa94269971ca3dc965e" category="section-title">サポートされている作業環境</block>
   <block id="9fd9b4e1af5d0e8b46abbd52a5c740cd" category="cell">ソースの作業環境</block>
   <block id="e4543e565352b9e4f4e71c2f648026f6" category="cell">サポートされるターゲットの作業環境</block>
@@ -131,9 +127,7 @@
   <block id="c1400343880c81f40f5a3faf804c86ae" category="list-text">シンプルな構成では、ボリューム A からボリューム B へのレプリケーションが行われます</block>
   <block id="efec681cbb459f433d2291a71e215461" category="list-text">ファンアウト構成では、ボリューム A から複数のデスティネーションへのレプリケーションが行われます。</block>
   <block id="7a850141034065e0218996db71a2ef0c" category="list-text">カスケード構成では、レプリケーションはボリューム A からボリューム B 、およびボリューム B からボリューム C に行われます</block>
-  <block id="dc699e704dec5502b9aa219f9381ad94" category="doc">レプリケーションのドキュメント</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
-  <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">レプリケーションドキュメント</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">データレプリケーションを管理</block>
@@ -141,7 +135,6 @@
   <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">レプリケーションポリシー</block>
   <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">バックアップポリシー</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
-  <block id="96dbe21e840f318daaf871cafa9f1d1f" category="sidebar">レプリケーションサービスを使用します</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログコミュニティ</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
@@ -209,7 +202,6 @@
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">Cloud Volumes ONTAP がこの関係の一部である場合は、VPCピアリングを有効にするか、トランジットゲートウェイを使用してVPC間の接続を確認します。</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">オンプレミスのONTAP クラスタが関係の一部である場合は、Direct ConnectまたはVPN接続を使用して、オンプレミスネットワークとAWS VPC間の接続を確認します。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">ナビゲーションメニューから、*ストレージ&gt;キャンバス*を選択します。</block>
-  <block id="b5346aabfb07747172bac9a45326a463" category="paragraph">BlueXPがデータレプリケーションプロセスを開始しますボリューム関係の詳細はレプリケーションサービスで確認できます。</block>
   <block id="30f8f8912c844cee545e88597d12bbab" category="summary">2つのシステム間でデータレプリケーションを設定すると、BlueXPからデータレプリケーションのスケジュールと関係を管理できます。</block>
   <block id="3b5a034beecbb1a2d60171dfe195f2df" category="list-text">ナビゲーションメニューから* Protection &gt; Replication *を選択します。</block>
   <block id="b49c40e645fcbad07d8747fe60951eee" category="paragraph">アクションを選択すると、関係またはスケジュールが更新されます。</block>
@@ -255,11 +247,7 @@
   <block id="09376463a89b70a46174403a8dd9b195" category="paragraph">BlueXPは、SnapMirrorとSnapVault テクノロジを使用して、別々のONTAP システム上のボリューム間のデータレプリケーションを簡素化します。ソースボリュームとデスティネーションボリュームを特定し、レプリケーションポリシーとスケジュールを選択するだけで済みます。</block>
   <block id="632626c0e49d0ec90a3c09ab71cb38fc" category="paragraph">Cloud Volumes ONTAP では、必要なディスクを購入し、関係を設定してレプリケーションポリシーを適用し、ボリューム間のベースライン転送を開始します。</block>
   <block id="778daec04c7f2f3e16024569d1955540" category="paragraph">BlueXPは、シンプル、ファンアウト、およびカスケードのデータ保護構成をサポートしています。</block>
-  <block id="c5a8374ee9fb158f61739b8d5bd880ef" category="summary">BlueXP作業環境間でデータを複製できます。1 回限りのデータレプリケーションを選択してクラウドとの間でデータを移動することも、繰り返しスケジュールを選択してディザスタリカバリや長期保管に備えることもできます。</block>
   <block id="3efdcfead8281aadde8513c58855434b" category="paragraph">BlueXPでデータレプリケーションを設定するときに、レプリケーションポリシーの選択に関するヘルプが必要になる場合があります。レプリケーションポリシーは、ストレージシステムがソースボリュームからデスティネーションボリュームにデータをレプリケートする方法を定義します。</block>
-  <block id="eb26b2f0ab3f4144da7840791e9e9cf0" category="summary">BlueXP（旧称Cloud Manager）のReplicationサービスの新機能について説明します。</block>
-  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">BlueXP 3.9に関する注意事項</block>
-  <block id="03f975e839e4278228720a5d19656288" category="paragraph"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
@@ -320,7 +308,6 @@
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
   <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
   <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
-  <block id="33f4a6dc8fe8627d8c8d45e16d3010a3" category="list-text"><block ref="33f4a6dc8fe8627d8c8d45e16d3010a3" category="inline-link-rx"></block></block>
   <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
   <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
@@ -369,4 +356,16 @@
   <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">FSx for ONTAPシステムとの間でのデータのレプリケートはサポートされていません。</block>
   <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">ボリュームの1回限りのレプリケーションを作成することはできません。</block>
   <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">そのため、この機能が必要な場合はBlueXPレプリケーションを使用してください。</block>
+  <block id="62390de09bd56fbb6d4533a188f4f201" category="doc">BlueXPのレプリケーションに関するドキュメント</block>
+  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link">Google CloudでCloud Volumes ONTAP を起動します</block>
+  <block id="626952d60302f9977a04f592cec299fb" category="list-text"><block ref="626952d60302f9977a04f592cec299fb" category="inline-link-rx"></block></block>
+  <block id="a7215108d548ffe7763ce1f9198d8994" category="paragraph">BlueXPがデータレプリケーションプロセスを開始しますボリューム関係に関する詳細は、BlueXPレプリケーションサービスで確認できます。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="70f977daf295113b60f6c4b035cb3f02" category="doc">BlueXPレプリケーションの詳細をご確認ください</block>
+  <block id="74ddb38c3b9b1f58e8ec0c893e2acc2c" category="paragraph">NetAppでは、BlueXPレプリケーションの使用料金は請求されませんが、該当するデータの入出力料金については、クラウドプロバイダで確認する必要があります。</block>
+  <block id="51ec975d41f1829ab090b8f898af8aa9" category="summary">BlueXPレプリケーションの新機能をご紹介します。</block>
+  <block id="50839a9360a2ad4070bd1ba04d7e502a" category="paragraph">レプリケーション・サービスは'使いやすく'ユーザー・インタフェースの現在の外観と操作性に合わせて再設計されました</block>
+  <block id="d87a7b7b52c9dad26684c49099c92944" category="sidebar">BlueXPレプリケーションのドキュメント</block>
+  <block id="e7c71db0ba7d050d4d85bc8cab04fc33" category="sidebar">BlueXPレプリケーションを使用</block>
 </blocks>

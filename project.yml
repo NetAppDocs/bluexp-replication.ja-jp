@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Replication
+  name: BlueXP replication
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,13 +11,13 @@ settings:
   langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: レプリケーションドキュメント
+  - title: BlueXPレプリケーションのドキュメント
     url: "/index.html"
   - title: リリースノート
     url: "/whats-new.html"
   - title: はじめに
     entries:
-    - title: レプリケーションサービスについて説明します
+    - title: BlueXPレプリケーションの詳細をご確認ください
       url: "/concept-replication.html"
     - title: データレプリケーションを設定
       url: "/task-replicating-data.html"
@@ -41,11 +41,11 @@ homepage:
   tiles:
   - title: はじめに
     links:
-    - title: レプリケーションサービスについて説明します
+    - title: BlueXPレプリケーションの詳細をご確認ください
       url: concept-replication.html
     - title: データレプリケーションを設定
       url: task-replicating-data.html
-  - title: レプリケーションサービスを使用します
+  - title: BlueXPレプリケーションを使用
     links:
     - title: データレプリケーションを管理
       url: task-managing-replication.html

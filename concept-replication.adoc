@@ -4,7 +4,7 @@ permalink: concept-replication.html
 keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention 
 summary: NetApp SnapMirror は、 LAN または WAN 経由でデータを高速でレプリケートするため、仮想環境と従来の環境の両方で、高いデータ可用性と高速なデータレプリケーションを実現できます。ネットアップストレージシステムにデータをレプリケートし、セカンダリデータを継続的に更新することで、データを最新の状態に保ちながら、必要なときにいつでもデータを利用できるようになります。外部レプリケーションサーバは必要ありません。 
 ---
-= レプリケーションサービスについて説明します
+= BlueXPレプリケーションの詳細をご確認ください
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -29,7 +29,7 @@ NetApp SnapMirror は、 LAN または WAN 経由でデータを高速でレプ�
 
 == コスト
 
-ネットアップでは、レプリケーションサービスの使用料は発生しませんが、データの入力と出力に該当する料金がクラウドプロバイダにあるかどうかを確認する必要があります。
+NetAppでは、BlueXPレプリケーションの使用料金は請求されませんが、該当するデータの入出力料金については、クラウドプロバイダで確認する必要があります。
 
 
 

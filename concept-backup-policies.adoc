@@ -4,7 +4,7 @@ permalink: concept-backup-policies.html
 keywords: snapvault, archive, archiving, retention 
 summary: ミラーポリシーとは異なり、バックアップ SnapVault ポリシーは特定の Snapshot コピーをデスティネーションボリュームにレプリケートします。デフォルトポリシーの代わりに独自のポリシーを使用する場合は、バックアップポリシーの仕組みを理解することが重要です。 
 ---
-= レプリケーションポリシーについて説明します
+= バックアップポリシーの詳細
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

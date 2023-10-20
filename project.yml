@@ -14,7 +14,9 @@ sidebar:
   - title: BlueXPレプリケーションのドキュメント
     url: "/index.html"
   - title: リリースノート
-    url: "/whats-new.html"
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
   - title: はじめに
     entries:
     - title: BlueXPレプリケーションの詳細をご確認ください
@@ -23,11 +25,11 @@ sidebar:
       url: "/task-replicating-data.html"
   - title: データレプリケーションを管理
     url: "/task-managing-replication.html"
-  - title: 概念
+  - title: 詳細はこちら。
     entries:
-    - title: レプリケーションポリシー
+    - title: レプリケーションポリシーについて説明します
       url: "/concept-replication-policies.html"
-    - title: バックアップポリシー
+    - title: バックアップポリシーの詳細
       url: "/concept-backup-policies.html"
   - title: 知識とサポート
     entries:

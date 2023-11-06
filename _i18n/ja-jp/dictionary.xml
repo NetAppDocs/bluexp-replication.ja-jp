@@ -73,8 +73,6 @@
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">作業環境</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">まだ作成していない場合は、データレプリケーション関係のソースとターゲットの作業環境を作成する必要があります。</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">ONTAP 作業環境用の Amazon FSX を作成します</block>
-  <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">AWS で Cloud Volumes ONTAP を起動します</block>
-  <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">Azure で Cloud Volumes ONTAP を起動します</block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">既存の Cloud Volumes ONTAP システムを追加</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">ONTAP クラスタを検出</block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">バージョン要件</block>
@@ -181,7 +179,6 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="913f5c084102a0d1bd37403b15c46b13" category="list-text">クラスタがオンプレミスにある場合は、企業ネットワークからAWS、Azure、またはGoogle Cloudの仮想ネットワークへの接続が必要です。これは通常、 VPN 接続です。</block>
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">Cloud Volumes ONTAP がこの関係の一部である場合は、VPCピアリングを有効にするか、トランジットゲートウェイを使用してVPC間の接続を確認します。</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">オンプレミスのONTAP クラスタが関係の一部である場合は、Direct ConnectまたはVPN接続を使用して、オンプレミスネットワークとAWS VPC間の接続を確認します。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">ナビゲーションメニューから、*ストレージ&gt;キャンバス*を選択します。</block>
@@ -279,8 +276,6 @@
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
-  <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
-  <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
   <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
   <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
@@ -325,8 +320,6 @@
   <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">ボリュームの1回限りのレプリケーションを作成することはできません。</block>
   <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">そのため、この機能が必要な場合はBlueXPレプリケーションを使用してください。</block>
   <block id="62390de09bd56fbb6d4533a188f4f201" category="doc">BlueXPのレプリケーションに関するドキュメント</block>
-  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link">Google CloudでCloud Volumes ONTAP を起動します</block>
-  <block id="626952d60302f9977a04f592cec299fb" category="list-text"><block ref="626952d60302f9977a04f592cec299fb" category="inline-link-rx"></block></block>
   <block id="a7215108d548ffe7763ce1f9198d8994" category="paragraph">BlueXPがデータレプリケーションプロセスを開始しますボリューム関係に関する詳細は、BlueXPレプリケーションサービスで確認できます。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
@@ -372,4 +365,7 @@
   <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">バックアップポリシーの詳細</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="d59048f21fd887ad520398ce677be586" category="sidebar">詳細はこちら。</block>
+  <block id="99a83347a58b400f105b44e515a16e59" category="inline-link">Cloud Volumes ONTAP作業環境の作成</block>
+  <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
+  <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">クラスタがオンプレミスにある場合は、企業ネットワークからクラウド内の仮想ネットワークに接続する必要があります。これは通常、 VPN 接続です。</block>
 </blocks>

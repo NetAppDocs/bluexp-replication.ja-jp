@@ -39,26 +39,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法的通知
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: はじめに
-    links:
-    - title: BlueXPレプリケーションの詳細をご確認ください
-      url: concept-replication.html
-    - title: データレプリケーションを設定
-      url: task-replicating-data.html
-  - title: BlueXPレプリケーションを使用
-    links:
-    - title: データレプリケーションを管理
-      url: task-managing-replication.html
-  - title: ブログコミュニティ
-    links:
-    - title: ネットアップコミュニティ
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXPブログ
-      url: https://cloud.netapp.com/blog
-    - title: クラウドに関する Web セミナー
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

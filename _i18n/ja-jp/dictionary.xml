@@ -185,7 +185,6 @@
   <block id="243263104c829e77835d632f591230d5" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
@@ -216,7 +215,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="e462524abde8989bedbc1209f4bf2a8b" category="paragraph">BlueXPを使用すると'次のような作業環境間でデータのレプリケーションを実行できます</block>
   <block id="09376463a89b70a46174403a8dd9b195" category="paragraph">BlueXPは、SnapMirrorとSnapVault テクノロジを使用して、別々のONTAP システム上のボリューム間のデータレプリケーションを簡素化します。ソースボリュームとデスティネーションボリュームを特定し、レプリケーションポリシーとスケジュールを選択するだけで済みます。</block>
   <block id="632626c0e49d0ec90a3c09ab71cb38fc" category="paragraph">Cloud Volumes ONTAP では、必要なディスクを購入し、関係を設定してレプリケーションポリシーを適用し、ボリューム間のベースライン転送を開始します。</block>
@@ -226,7 +224,6 @@
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
@@ -288,25 +285,18 @@
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">シリアル番号のあるONTAPシステムのケースをオープンする場合は、そのシステムのシリアル番号にNSSアカウントを関連付ける必要があります。</block>
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。次のいずれかのオプションを使用して、サポートを受けることができます。</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。登録を完了するには、以下の手順でNetApp Support Site（NSS）アカウントをBlueXPに追加してください。</block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetAppサポートにBlueXPアカウントを登録します</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXPアカウントの1人のユーザがNetApp Support SiteアカウントをBlueXPログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">[NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">[リソース]ページに、アカウントがサポートに登録されていることが表示されます。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXPアカウントがサポートに登録されていないわけではありません。アカウント内の1人のユーザーがこれらの手順を実行している限り、アカウントは登録されています。</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">NetAppの既存のお客様で、ライセンスとシリアル番号は_NO_NSSアカウントしかお持ちでない場合は、NSSアカウントを作成してBlueXPログインに関連付ける必要があります。</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">の手順を実行して、新しいNSSアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetApp Support Siteアカウントを作成したら、の手順を実行してアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートのためにNSSクレデンシャルを関連付けます</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">NetApp Support Siteで次の主要なワークフローを有効にするには、BlueXPアカウントにクレデンシャルを関連付ける必要がCloud Volumes ONTAPあります。</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムのサポートを登録しています</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">お使いのシステムのサポートを有効にし、ネットアップのテクニカルサポートリソースにアクセスするには、 NSS アカウントを用意する必要があります。</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">お客様所有のライセンスを使用（BYOL）する場合のCloud Volumes ONTAP の導入</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">ライセンスキーをBlueXPでアップロードし、購入した契約期間のサブスクリプションを有効にするには、NSSアカウントを提供する必要があります。これには、期間の更新の自動更新も含まれます。</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="31fd9b4d5ab71f1bab6cf8522f760d0a" category="section-title">BlueXPのバックアップとリカバリを使用してデータをレプリケート</block>
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">BlueXPのバックアップとリカバリ</block>
   <block id="66979f555a68186ee239dfc6698f984d" category="paragraph">BlueXP Connector 3.9.31リリース以降では、BlueXPのバックアップとリカバリで、SnapMirrorテクノロジとSnapVaultテクノロジを使用して、別 々 のONTAPシステム上のボリューム間でデータをレプリケートできます。そのため、データを他のONTAPシステムにレプリケートし、同じデータのバックアップをオブジェクトストレージに作成する場合は、を使用することを推奨します<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> データ保護のニーズを単一のサービスで管理できるようになります。</block>
@@ -366,4 +356,14 @@
   <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">クラスタがオンプレミスにある場合は、企業ネットワークからクラウド内の仮想ネットワークに接続する必要があります。これは通常、 VPN 接続です。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。</block>
   <block id="97d76d6ad65338f9dc1e8196be488382" category="paragraph"><block ref="97d76d6ad65338f9dc1e8196be488382" category="inline-link-rx"></block></block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXP  組織（またはアカウント）、プロジェクト（またはワークスペース）、コネクタの範囲内にあります。</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">BlueXP  アカウントのシリアル番号（BlueXP  のサポートリソースページに記載されている20桁の960xxxxxxxxxシリアル番号）を登録します。</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">NetAppサポートのためのBlueXP  の登録</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXP  組織（またはアカウント）の1人のユーザがNetAppサポートサイトのアカウントをBlueXP  ログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">[リソース]ページに、BlueXP  組織がサポートに登録されていることが表示されます。</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXP  組織がサポートに登録されていないわけではありません。組織内の1人のユーザーがこれらの手順を実行している限り、組織は登録されています。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより処理が高速化されます。</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
 </blocks>

@@ -57,7 +57,7 @@ ONTAP クラスタ固有の要件::
 * クラスタがオンプレミスにある場合は、企業ネットワークからクラウド内の仮想ネットワークに接続する必要があります。これは通常、 VPN 接続です。
 * ONTAP クラスタは、サブネット、ポート、ファイアウォール、およびクラスタの追加要件を満たしている必要があります。
 +
-https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["クラスタピアリングの前提条件については、 ONTAP のドキュメントを参照してください"^]
+https://docs.netapp.com/us-en/ontap/peering/prerequisites-cluster-peering-reference.html#connectivity-requirements["クラスタピアリングの前提条件については、 ONTAP のドキュメントを参照してください"^]
 
 
 

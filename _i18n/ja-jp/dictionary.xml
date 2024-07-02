@@ -137,7 +137,6 @@
   <block id="49a1e754247eba0034ec2a2b3dea46b0" category="inline-link">SnapMirror 関係に対して互換性のある ONTAP バージョンを表示します</block>
   <block id="b8c6e83fa255fcfab352a5b54339fdb8" category="paragraph"><block ref="b8c6e83fa255fcfab352a5b54339fdb8" category="inline-link-rx"></block></block>
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">クラスタピアリングの前提条件については、 ONTAP のドキュメントを参照してください</block>
-  <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
   <block id="d0c8bcc8105dd12af5250cd475e35814" category="paragraph">カスタムバックアップ（ SnapVault ）ポリシーを選択した場合は、ポリシーに関連付けられたラベルがソースボリューム上の Snapshot コピーのラベルと一致する必要があります。を参照してください。 <block ref="1da422ecee672d98d1632cce950d0eeb" category="inline-link-macro-rx"></block>。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
@@ -366,4 +365,5 @@
   <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
   <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">クラスタがオンプレミスにある場合は、企業ネットワークからクラウド内の仮想ネットワークに接続する必要があります。これは通常、 VPN 接続です。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。</block>
+  <block id="97d76d6ad65338f9dc1e8196be488382" category="paragraph"><block ref="97d76d6ad65338f9dc1e8196be488382" category="inline-link-rx"></block></block>
 </blocks>

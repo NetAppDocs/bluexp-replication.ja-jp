@@ -1,0 +1,11 @@
+= FSX for ONTAP to Cloud Volumes ONTAP の略
+:allow-uri-read: 
+
+
+
+
+=== FSX for ONTAP to Cloud Volumes ONTAP の略
+
+Amazon FSX for ONTAP ファイルシステムからCloud Volumes ONTAP にデータをレプリケートできるようになりました。
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["データレプリケーションの設定方法について説明します"]。

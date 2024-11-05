@@ -1,0 +1,15 @@
+= ONTAP のFSXをデータソースとして使用します
+:allow-uri-read: 
+
+
+
+
+=== ONTAP のFSXをデータソースとして使用します
+
+Amazon FSX for ONTAP ファイルシステムから次のデスティネーションにデータをレプリケートできるようになりました。
+
+* ONTAP 対応の Amazon FSX
+* オンプレミスの ONTAP クラスタ
+
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["データレプリケーションの設定方法について説明します"]。

@@ -1,5 +1,7 @@
 = ONTAP のFSXをデータソースとして使用します
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 

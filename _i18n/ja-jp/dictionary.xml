@@ -52,7 +52,6 @@
   <block id="06933067aafd48425d67bcb01bba5cb6" category="cell">更新</block>
   <block id="16685aa35f9f2843a357407642b0d7d9" category="cell">増分転送を開始してデスティネーションボリュームを更新します。</block>
   <block id="f2a6c498fb90ee345d997f888fce3b18" category="cell">削除</block>
-  <block id="09cd2e52d52004647bc6c39549be0b94" category="cell">ソースボリュームとデスティネーションボリューム間のデータ保護関係を削除します。つまり、ボリューム間でデータレプリケーションが行われなくなります。この操作では、データアクセスのデスティネーションボリュームはアクティブ化されません。また、システム間に他のデータ保護関係がない場合は、クラスタピア関係と Storage VM （ SVM ）ピア関係も削除されます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="f44753cd1ded9ad0818a4d62481460e9" category="summary">ミラーポリシーとは異なり、バックアップ SnapVault ポリシーは特定の Snapshot コピーをデスティネーションボリュームにレプリケートします。デフォルトポリシーの代わりに独自のポリシーを使用する場合は、バックアップポリシーの仕組みを理解することが重要です。</block>
   <block id="77ae0badcc9669dcf09b0b6ddb602a5a" category="paragraph">ミラーポリシーとは異なり、バックアップ（ SnapVault ）ポリシーは、特定の Snapshot コピーをデスティネーションボリュームに複製します。デフォルトポリシーの代わりに独自のポリシーを使用する場合は、バックアップポリシーの仕組みを理解することが重要です。</block>
@@ -366,4 +365,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="d1325501ee070fd499d61b4cb3ec234d" category="cell">ソースボリュームとデスティネーションボリューム間のデータ保護関係を削除します。つまり、ボリューム間でデータレプリケーションが行われなくなります。この操作では、データアクセスのデスティネーションボリュームはアクティブ化されません。</block>
 </blocks>
